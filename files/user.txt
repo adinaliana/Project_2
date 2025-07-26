@@ -1,0 +1,17 @@
+user
+masteruser
+me
+justme
+administrator
+admin
+root
+xyz
+master
+boss
+default
+robert
+mary
+king
+queen
+
+
