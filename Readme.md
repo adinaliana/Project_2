@@ -33,7 +33,7 @@
 ### Target Identification:
 I powered on my Metasploitable2 virtual machine within Oracle VirtualBox and logged in to identify its IP address.
 
-![](screenshots/1.png)
+![](screenshots/2.png)
 
 
 ### Network Scan:
@@ -46,7 +46,7 @@ I performed an Nmap scan on the target machine. This initial scan was crucial fo
 To uncover hidden directories and files on the web server, I utilized Gobuster. This tool systematically fuzzes directory and file names, helping to map the web application's structure. The scan results revealed `index.php`, which upon inspection, led me to the DVWA (Damn Vulnerable Web Application) instance hosted on the machine. This discovery was significant as DVWA is intentionally vulnerable and an ideal target for penetration testing practice.
 Screenshot: Gobuster scan in progress.
 
-![](screenshots/3.png)
+![](screenshots/2.png)
 
 
 ### Accessing DVWA Login:
